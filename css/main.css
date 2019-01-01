@@ -1,0 +1,188 @@
+*{
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+font-size:80%;
+padding:0;
+margin:0
+}
+
+div{
+padding:3px
+}
+
+pre{
+font-size:125%
+}
+
+textarea{
+width:100%
+}
+
+.nav{
+text-align:center
+}
+
+.ft{
+text-align:right;
+margin-top:20px;
+font-size:smaller
+}
+
+.inv{
+background-color:#069;
+color:#FFF
+}
+
+.inv a{
+color:#FFF
+}
+
+table{
+border-collapse:collapse
+}
+
+table.res{
+width:100%
+}
+
+table.wa{
+width:auto
+}
+
+table.res th,table.res td{
+padding:2px;
+border:1px solid #fff;
+vertical-align:top
+}
+
+table.sm th,table.sm td{
+max-width:30em
+}
+
+table.sm th>div,table.sm td>div{
+max-height:3.5em;
+overflow:hidden
+}
+
+table.sm th.lg,table.sm td.lg{
+max-width:inherit
+}
+
+table.sm th.lg>div,table.sm td.lg>div{
+max-height:inherit;
+overflow:inherit
+}
+
+table.restr{
+vertical-align:top
+}
+
+tr.e{
+background-color:#CCC
+}
+
+tr.o{
+background-color:#EEE
+}
+
+tr.e:hover, tr.o:hover{
+background-color:#FF9
+}
+
+tr.h{
+background-color:#99C
+}
+
+tr.s{
+background-color:#FF9
+}
+
+.frm{
+width:400px;
+border:1px solid #999;
+background-color:#eee;
+text-align:left
+}
+
+.frm label .l{
+width:100px;
+float:left
+}
+
+.dot{
+border-bottom:1px dotted #000
+}
+
+.ajax{
+text-decoration:none;
+border-bottom: 1px dashed
+}
+
+.qnav{
+width:30px
+}
+
+.clear{
+clear:both;
+height:0;
+display:block
+}
+
+.pi a{
+text-decoration:none
+}
+
+.pi hr{
+display:none
+}
+
+.pi img{
+float:right
+}
+
+.pi .center{
+text-align:center
+}
+
+.pi table{
+margin:0 auto
+}
+
+.pi table td, .pi table th{
+border:1px solid #000000;
+text-align:left;
+vertical-align:baseline
+}
+
+.pi table .e{
+background-color:#ccccff;
+font-weight:bold
+}
+
+.pi table .v{
+background-color:#cccccc
+}
+
+
+/*mod*/
+.footer-bottom {
+
+ background:#d8d8d8;
+
+ padding:15px 0;
+
+ border-top:1px solid #d9d9d9;
+
+ font-size:11px;
+
+ color:#777;
+
+ text-align:center;
+
+
+}
+
+/*login form*/
